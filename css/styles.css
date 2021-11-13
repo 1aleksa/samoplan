@@ -1,0 +1,160 @@
+
+/* ALL PAGES  */
+
+html {
+  scroll-padding-top: 125px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Padding of all divs */
+
+.container-width {
+  padding: 3% 15%;
+}
+
+/* Image Section Width */
+
+.section-image {
+  max-width: 100%;
+}
+
+/* Navigation Bar Section */
+
+.navbar {
+  position: sticky;
+}
+
+.navbar-container {
+  margin: 25px 15% 0;
+  padding: 0;
+}
+
+.navbar-item {
+  padding: 0 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HOME PAGE */
+
+/* Title Section */
+
+#title div {
+  padding-bottom: 0;
+}
+
+.title-text {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title img {
+  max-width: 550px;
+  max-height: 550px;
+}
+
+/* Features Section */
+
+#features div {
+  padding-top: 0;
+}
+
+#features img {
+  max-width: 100%;
+  max-height: 230px;
+  justify-content: center;
+  text-align: center;
+}
+
+#features p {
+  text-align: justify;
+}
+
+.feature-icon {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 0.5px solid #eee;
+  border-radius: 20px;
+}
+
+/* Use Cases Section */
+
+#use-cases img {
+  max-height: 500px;
+  border-radius: 20px;
+}
+
+.use-case-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Contact Section */
+
+#contact .container-width {
+  max-width: 1400px;
+}
+
+/* END OF HOME PAGE */
+
+/* Media Queries Section */
+
+@media (max-width: 992px) {
+
+  html {
+    scroll-padding-top: 150px;
+  }
+
+  .navbar-container {
+    margin: 0;
+    padding: 30px;
+  }
+
+  .container-width {
+    padding: 30px;
+  }
+
+  .navbar-item {
+    padding: 0;
+    display: inline-block;
+  }
+
+  .image-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
