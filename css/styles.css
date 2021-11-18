@@ -123,6 +123,12 @@ p {
   margin-top: 50px;
 }
 
+/* Accordion FAQ Section */
+
+#accordionFlushExample {
+  max-width: 1400px;
+}
+
 /* Contact Section */
 
 #contact .container-width {
