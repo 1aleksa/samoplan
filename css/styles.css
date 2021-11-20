@@ -111,9 +111,10 @@ p {
 }
 
 .use-case-cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .cta-button {
